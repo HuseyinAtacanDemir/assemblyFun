@@ -1,3 +1,7 @@
+; here is a piece of asm code that prints the fib numbers upto and includeing n-1
+; i know i know, instead of jumps everywhere i should have used the stack
+;but I don't know how to use the stack yet... so this is the best we can do for now
+
 section	.data
     msg db '^ N-1th fib number ^', 0xA, 0xD
     msgLen equ $ - msg
